@@ -53,8 +53,8 @@
     
     WebView *webView = [[WebView alloc] initWithFrame:frame];
     [webView setMaintainsBackForwardList:NO];	
-    [webView setFrameLoadDelegate:self];
-    [webView setResourceLoadDelegate:self];
+    [webView setFrameLoadDelegate:(id)self];
+    [webView setResourceLoadDelegate:(id)self];
     [webView setMediaStyle:@"screen"];
     
     // Window
@@ -177,7 +177,7 @@
 		
 		NSMutableDictionary *printInfoDict;
 		printInfoDict = [NSMutableDictionary dictionaryWithDictionary:[[NSPrintInfo sharedPrintInfo] dictionary]];
-		[printInfoDict setObject:filename forKey:NSPrintSavePath];		
+		[printInfoDict setObject:filename forKey:NSPrintJobSavingURL];
 		
 		NSPrintInfo *printInfo = [[NSPrintInfo alloc] initWithDictionary: printInfoDict];
 		[printInfo setHorizontallyCentered:NO];
@@ -204,12 +204,13 @@
         
 		// Set orientation
 		
+
 		switch (printOrientation) {
 			case 0:
-				[printInfo setOrientation:NSPortraitOrientation];
+                [printInfo setOrientation:(printOrientation)];
 				break;
 			case 1:
-				[printInfo setOrientation:NSLandscapeOrientation];
+				[printInfo setOrientation:(printOrientation)];
 				break;
 		}			
         

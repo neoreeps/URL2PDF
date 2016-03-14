@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F22CD156-E77F-4188-A384-3FFD507C1B0D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>URL2PDF</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>54AF5D5F1DF72CD866461C4BD6A539CCFB05963C</key>
+		<string>https://github.com/scottgarner/URL2PDF.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>URL2PDF.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>54AF5D5F1DF72CD866461C4BD6A539CCFB05963C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/scottgarner/URL2PDF.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>54AF5D5F1DF72CD866461C4BD6A539CCFB05963C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>54AF5D5F1DF72CD866461C4BD6A539CCFB05963C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>URL2PDF</string>
+		</dict>
+	</array>
+</dict>
+</plist>
